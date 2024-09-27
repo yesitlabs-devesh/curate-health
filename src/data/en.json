@@ -1,0 +1,210 @@
+{
+  "Navigation": [
+    {
+      "title": "Home",
+      "route": "#home"
+    },
+    {
+      "title": "New",
+      "route": "#new"
+    },
+    {
+      "title": "Features",
+      "route": "#features"
+    },
+    {
+      "title": "Pricing",
+      "route": "#pricing"
+    },
+    {
+      "title": "FAQs",
+      "route": "#faqs"
+    },
+    {
+      "title": "More",
+      "route": null,
+      "dropdown": [
+        {
+          "title": "Project Management",
+          "route": "/project-management"
+        },
+        {
+          "title": "CRM Landing",
+          "route": "/crm-landing"
+        },
+        {
+          "title": "AI Content Landing",
+          "route": "/ai-content-landing"
+        },
+        {
+          "title": "New Intro Landing",
+          "route": "/new-intro-landing"
+        },
+        {
+          "title": "About Us",
+          "route": "/about-us-landing"
+        },
+        {
+          "title": "Contact Us",
+          "route": "/contact-us-landing"
+        },
+        {
+          "title": "FAQs Landing",
+          "route": "/faqs-landing"
+        },
+        {
+          "title": "Pricing Landing",
+          "route": "/pricing-landing"
+        },
+        {
+          "title": "Career Landing",
+          "route": "/career-landing"
+        }
+      ]
+    }
+  ],
+  "Header": {
+    "title": "Start your project management with Onion",
+    "subtitle": "Onion is a cloud-based project management tool designed to help you and your team stay organized and productive.",
+    "image": "/assets/images/management-landing/banner-light.png",
+    "imageDark": "/assets/images/management-landing/banner-dark.png",
+    "button1": "Try for Free",
+    "button2": "Book Demo"
+  },
+  "Features": {
+    "items": [
+      {
+        "icon": "DocumentText",
+        "title": "Task Management",
+        "details": "Keep track of your team's tasks with ease"
+      },
+      {
+        "icon": "Clock",
+        "title": "Time Tracking",
+        "details": "Keep track of your team's tasks with ease"
+      },
+      {
+        "icon": "Annotation",
+        "title": "Collaboration",
+        "details": "Keep track of your team's tasks with ease"
+      },
+      {
+        "icon": "DocumentReport",
+        "title": "Reporting",
+        "details": "Keep track of your team's tasks with ease"
+      }
+    ]
+  },
+  "FAQs": {
+    "questions": [
+      {
+        "question": "What is project management software?",
+        "answer": "Project management software helps teams to stay organized and on track by providing a central hub for project information, task assignment & progress tracking."
+      },
+      {
+        "question": "How does project management software help teams?",
+        "answer": "Project management software helps teams to stay organized and on track by providing a central hub for project information, task assignment & progress tracking."
+      },
+      {
+        "question": "What features should I look for in project management software?",
+        "answer": "Project management software helps teams to stay organized and on track by providing a central hub for project information, task assignment & progress tracking."
+      },
+      {
+        "question": "Is project management software easy to use?",
+        "answer": "Project management software helps teams to stay organized and on track by providing a central hub for project information, task assignment & progress tracking."
+      },
+      {
+        "question": "Can project management software be used by remote teams?",
+        "answer": "Project management software helps teams to stay organized and on track by providing a central hub for project information, task assignment & progress tracking."
+      }
+    ]
+  },
+  "Analytics": {
+    "title": "Get started with onion today",
+    "description": "Our cloud-based task management tool is designed to help you and your team get more done.",
+    "button1": "Start Request Demo",
+    "button2": "Watch Video",
+    "image": "/assets/images/management-landing/analytics-light.png",
+    "imageDark": "/assets/images/management-landing/analytics-dark.png",
+    "imageAlt": "Analytics visualization"
+  },
+  "Demos": {
+    "DataManagement": {
+      "title": "Powerful Data Management",
+      "description": "Our cloud-based project management tool provides you and your team with real-time data and updates.",
+      "buttonText": "Start Request Demo",
+      "imageLight": "/assets/images/management-landing/demo-light-1.png",
+      "imageDark": "/assets/images/management-landing/demo-dark-1.png"
+    },
+    "Statistics": {
+      "title": "Our Project Statistics",
+      "description": "Our SaaS tool streamlines all your analytical tasks, making it easier for you and your team to track and analyze data.",
+      "buttonText": "Start Request Demo",
+      "imageLight": "/assets/images/management-landing/demo-light-2.png",
+      "imageDark": "/assets/images/management-landing/demo-dark-2.png"
+    },
+    "Reviews": {
+      "title": "Customer Reviews",
+      "description": "Discover what our customer says about us and why they are coming back!",
+      "buttonText": "Start Request Demo",
+      "imageLight": "/assets/images/management-landing/demo-light-3.png",
+      "imageDark": "/assets/images/management-landing/demo-dark-3.png"
+    }
+  },
+  "Sponsors": [
+    {
+      "name": "Stripe",
+      "icon": "Stripe"
+    },
+    {
+      "name": "Paddle",
+      "icon": "Paddle"
+    },
+    {
+      "name": "Razorpay",
+      "icon": "Razorpay"
+    },
+    {
+      "name": "Openai",
+      "icon": "Openai"
+    },
+    {
+      "name": "Laravel",
+      "icon": "Laravel"
+    }
+  ],
+  "Footer": {
+    "description": "ShadcnKit SaaS template is a powerful and versatile software application that provides a comprehensive framework for building and delivering cloud-based solutions.",
+    "sections": [
+      {
+        "title": "Products",
+        "items": [
+          "Project Management",
+          "Multi-tenancy",
+          "Scalability",
+          "Customization",
+          "Integration",
+          "Mobile accessibility",
+          "Analytics and reporting"
+        ]
+      },
+      {
+        "title": "Features",
+        "items": [
+          "User management",
+          "Workflow automation",
+          "API access",
+          "Data visualization",
+          "Version control",
+          "Upgrades",
+          "Billing and invoicing"
+        ]
+      },
+      {
+        "title": "Explore",
+        "items": ["Docs", "Pricing", "Integrations", "Blog", "About"]
+      }
+    ],
+    "copyright": "Copyright © 2023 UI-Lib. All rights reserved"
+  }
+}

@@ -1,0 +1,845 @@
+/* NEW CSS */
+
+.free-consultant-wpp-spapp {
+  position: absolute;
+  right: 89px;
+  margin-top: -74px;
+
+  & button {
+    background: #04554A;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: max-content;
+    padding: 14px 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+  }
+
+}
+
+
+.banner-btn-wpp {
+
+  & button:nth-child(1) {
+    background: #fff;
+    color: #04554A;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: max-content;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+  }
+
+  & button:nth-child(2) {
+    background: #04554A;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: max-content;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+  }
+
+}
+
+
+
+
+.navigate-sec-banner {
+  background: #F9F9F9;
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+
+  & h1 {
+    line-height: 72px;
+    font-size: 3.2rem;
+    color: #022C24;
+    font-weight: 400;
+  }
+
+  & p {
+    letter-spacing: 0em;
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #022C24;
+    text-align: justify;
+  }
+
+  & button {
+    background: #EFF1F1;
+    color: #04554A;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: max-content;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+  }
+}
+
+
+.approach-wellness-banner {
+  background-color: #fff;
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  & h1 {
+    line-height: 72px;
+    font-size: 3.2rem;
+    color: #022C24;
+    font-weight: 400;
+  }
+
+  & p {
+    letter-spacing: 0em;
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #022C24;
+    text-align: justify;
+  }
+
+}
+
+.technology-banner {
+  background: #F9F9F9;
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  & h1 {
+    line-height: 72px;
+    font-size: 3.2rem;
+    color: #022C24;
+    font-weight: 400;
+  }
+
+  & p {
+    letter-spacing: 0em;
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #022C24;
+    text-align: justify;
+  }
+
+  & button {
+    background: #EFF1F1;
+    color: #04554A;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: max-content;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+  }
+
+  img {
+    max-width: 280px;
+    width: 100%;
+  }
+
+}
+
+
+.process-box {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 19px 0px #9B9B9B40;
+  padding: 14px 14px;
+
+  & h3 {
+    line-height: 72px;
+    font-size: 18px;
+    color: #04554A;
+    font-weight: 500;
+  }
+
+
+  .image-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .content-inner {
+    margin-top: -12px;
+    margin-bottom: 14px;
+
+    & p {
+      letter-spacing: 0em;
+      line-height: 1.65rem;
+      font-size: 16px;
+      font-weight: 500;
+      margin-left: 46px;
+      color: #1E1E1E;
+      text-align: justify;
+    }
+
+  }
+
+}
+
+.verified-review {
+  background: #fff;
+  padding: 11px 86px;
+  padding-bottom: 26px;
+
+  & h1 {
+    line-height: 72px;
+    font-size: 3.2rem;
+    color: #022C24;
+    font-weight: 400;
+  }
+
+
+  & .review-boxes {
+    border: 2px solid #CFD7D7;
+    padding-right: 0;
+
+
+
+    & .heading {
+      color: #04554A;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 21px;
+      text-align: left;
+    }
+
+    & .para {
+      letter-spacing: 0em;
+      line-height: 1.65rem;
+      font-size: 16px;
+      font-weight: 500;
+      color: #1E1E1E;
+      text-align: justify;
+    }
+
+  }
+
+  .slick-prev {
+    left: -41px;
+  }
+
+  .slick-slide.slick-active.review-boxes {
+    background: #036C5F;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 24px;
+    line-height: 1;
+    padding: 0px;
+    /* border-radius: 30px; */
+    opacity: .75;
+    color: #036C5F;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+
+
+  .shadow-md {
+    /* box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); */
+    box-shadow: 0px 4px 42px 0px #EDE2DB73;
+    background: #fff !important;
+
+
+
+
+    & .wapp-reviews-pro {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+      & .review-left-sec {
+        width: 70%;
+      }
+
+      & .reviews-profile {
+        background-color: transparent;
+        padding: 2px 3px;
+        position: relative;
+
+        & img {
+          width: 305px;
+          height: 288px;
+          object-fit: cover;
+        }
+
+        & .reviews-con-inner {
+          position: absolute;
+          margin-left: 35px;
+          margin-right: 35px;
+          background: #ffffff4d;
+          backdrop-filter: blur(9px);
+          padding: 10px 10px 10px 10px;
+          bottom: 18px;
+          width: 75%;
+          border-radius: 10px;
+
+          & .heading-reviews {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            img {
+              width: 30px;
+              height: 30px;
+            }
+
+            & h3 {
+              font-size: 18px;
+              text-align: center;
+              padding-top: 0;
+              color: #000;
+              display: flex;
+              align-items: center;
+              font-weight: 500;
+            }
+
+          }
+
+
+          .button-review-con {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            /* margin-top: -12px; */
+            margin-bottom: 10px;
+
+            & button {
+              background: #04554A;
+              color: #fff;
+              font-weight: 400;
+              /* text-transform: uppercase; */
+              font-size: 14px;
+              width: max-content;
+              padding: 7px 10px;
+              border: 1px solid #fff;
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              border-radius: 30px;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    & p {
+      letter-spacing: 0em;
+      line-height: 1.75rem;
+      font-size: 1.125rem;
+      font-weight: 500;
+      color: #022C24;
+      text-align: justify;
+    }
+
+    .titles {
+      font-size: 1.125rem;
+      font-weight: 500;
+      color: #04554A;
+
+    }
+
+
+  }
+
+}
+
+
+
+.integrating-technology {
+
+  section.grow.shadow-md-grill {
+    background: #fff;
+  }
+
+
+  .tag-apple-img {
+    max-width: 130px;
+    width: 100%;
+  }
+
+  & h2.title-integrating {
+    line-height: 72px;
+    font-size: 2.1rem;
+    color: #022C24;
+    font-weight: 500;
+  }
+
+  & p {
+    letter-spacing: 0em;
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #022C24;
+    text-align: justify;
+  }
+
+  & button:nth-child(1) {
+    background: #EFF1F1;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: max-content;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+  }
+
+  & button:nth-child(2) {
+    background: #fff;
+    color: #04554A;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid #04554A;
+    width: max-content;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+  }
+
+}
+
+
+.integrating-main-wpp {
+  padding: 14px 97px;
+
+
+  & h1 {
+    line-height: 72px;
+    font-size: 3.2rem;
+    color: #022C24;
+    font-weight: 400;
+  }
+
+
+}
+
+.marketplace-anchor {
+
+  & a {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #04554A;
+    gap: 10px;
+    border-radius: 30px;
+  }
+
+}
+
+.main-exploreroutine-wrap {
+  background: #FEFBF9;
+  padding: 19px 72px;
+
+  & h1 {
+    line-height: 72px;
+    font-size: 3.2rem;
+    color: #022C24;
+    font-weight: 400;
+  }
+
+  .explore-routine-wpp {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    .explore-boxes {
+      background-color: #fff;
+      border: 1px solid #CFD7D7;
+      box-shadow: 0px 4px 42px 0px #EDE2DB73;
+      border-radius: 10px;
+      padding: 10px 10px;
+      width: 54%;
+
+      .image-explore-wpp {
+
+        img {
+          margin: 0 auto;
+        }
+
+      }
+
+      & h2 {
+        line-height: 72px;
+        font-size: 2.1rem;
+        color: #04554A;
+        font-weight: 500;
+        margin-bottom: -8px;
+      }
+
+      & p {
+        line-height: 1.75rem;
+        font-size: 1.125rem;
+        font-weight: 400;
+        height: 90px;
+        color: #022C24;
+        text-align: left;
+      }
+
+      & button {
+        background: #fff;
+        color: #04554A;
+        border: 1px solid #04554A;
+        padding: 13px 18px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-radius: 30px;
+        margin-top: 6px;
+      }
+
+
+    }
+  }
+
+
+
+}
+
+
+.curate-health-band {
+
+  & button:nth-child(1) {
+    background: #fff;
+    color: #04554A;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: max-content;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+  }
+
+  & button:nth-child(2) {
+    background: transparent;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: max-content;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+  }
+
+}
+
+
+
+.faq-section-wrap {
+  padding: 10px 57px;
+
+
+  & h1 {
+    line-height: 72px;
+    font-size: 3.2rem;
+    color: #022C24;
+    font-weight: 400;
+  }
+
+  & .faq-accordians {
+    border: 1px solid #CFD7D7;
+    /* border-bottom: none; */
+    border-radius: 1px;
+    background: transparent;
+
+
+  }
+
+  & button {
+    background: transparent;
+  }
+
+}
+
+
+.knowledge-review {
+  background: #FEFBF9;
+  padding: 11px 86px;
+  padding-bottom: 26px;
+
+  & h1 {
+    line-height: 72px;
+    font-size: 3.2rem;
+    color: #022C24;
+    font-weight: 400;
+  }
+
+
+  & .knowledge-boxes {
+    border: 2px solid #CFD7D7;
+    padding-right: 0;
+    padding: 10px 10px;
+
+
+    .image-knowlge-sec {
+      img {
+        width: 100%;
+      }
+    }
+
+
+
+    .content-knowledge {
+
+      .tag-sec {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 14px;
+        padding-bottom: 3px;
+
+        .left-sec {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+
+          span {
+            background: #1E706126;
+            color: #036C5F;
+            font-weight: 500;
+            padding: 6px 12px;
+            font-size: 14px;
+            border-radius: 30px;
+          }
+        }
+
+        .right-sec {
+          blockquote {
+            color: #022C24;
+            font-weight: 500;
+            font-size: 14px;
+
+          }
+        }
+
+      }
+
+
+
+
+      & h3 {
+        line-height: 30px;
+        font-size: 22px;
+        color: #04554A;
+        font-weight: 500;
+        margin-bottom: 2px;
+        margin-top: 5px;
+      }
+
+      & p {
+        line-height: 22px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #022C24;
+        text-align: left;
+      }
+
+
+      .bottom-sec-knowldege {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-top: 10px;
+
+        img {
+          width: 40px;
+          height: 40px;
+          object-fit: cover;
+        }
+
+        blockquote {
+          color: #022C24;
+          font-weight: 500;
+          font-size: 14px;
+
+        }
+
+      }
+
+
+
+    }
+  }
+
+  .slick-prev {
+    left: -41px;
+  }
+
+  .slick-slide.slick-active.review-boxes {
+    background: #036C5F;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 24px;
+    line-height: 1;
+    padding: 0px;
+    /* border-radius: 30px; */
+    opacity: .75;
+    color: #036C5F;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+}
+
+
+.wellness-review {
+  background: #fff;
+  padding: 11px 86px;
+  padding-bottom: 26px;
+
+  & h1 {
+    line-height: 72px;
+    font-size: 3.2rem;
+    color: #022C24;
+    font-weight: 400;
+  }
+
+  & .welness-boxes {
+    padding: 0px 0px;
+    position: relative;
+
+    & .image-knowlge-sec {
+      img {
+        width: 100%;
+      }
+    }
+
+    & .wellnes-content-box {
+      position: absolute;
+      margin-left: 13px;
+      margin-right: 5px;
+      background: #ffffff4d;
+      backdrop-filter: blur(9px);
+      padding: 10px 10px 10px 10px;
+      bottom: 18px;
+      width: 90%;
+      border-radius: 10px;
+
+      & .heading-reviews {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 49px;
+        gap: 10px;
+
+        img {
+          width: 30px;
+          height: 30px;
+        }
+
+        & h3 {
+          font-size: 18px;
+          text-align: center;
+          padding-top: 0;
+          color: #000;
+          display: flex;
+          align-items: center;
+          font-weight: 500;
+        }
+
+      }
+
+
+      .button-review-con {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        /* margin-top: -12px; */
+        margin-bottom: 10px;
+
+        & button {
+          background: #04554A;
+          color: #fff;
+          font-weight: 400;
+          /* text-transform: uppercase; */
+          font-size: 14px;
+          width: max-content;
+          padding: 7px 10px;
+          border: 1px solid #fff;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          border-radius: 30px;
+        }
+
+      }
+
+
+    }
+
+
+  }
+
+
+  .slick-prev {
+    left: -41px;
+  }
+
+  .slick-slide.slic k-active.review-boxes {
+    background: #036C5F;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 24px;
+    line-height: 1;
+    padding: 0px;
+    /* border-radius: 30px; */
+    opacity: .75;
+    color: #036C5F;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+}
+
+
+
+/* NEW CSS */

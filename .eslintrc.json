@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "root": true,
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:tailwindcss/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "plugins": ["tailwindcss"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@next/next/no-html-link-for-pages": "off",
+    "tailwindcss/no-custom-classname": "off",
+    "tailwindcss/classnames-order": "off",
+    "tailwindcss/enforces-shorthand": "off",
+    "tailwindcss/no-contradicting-classname": "off",
+    "tailwindcss/no-unnecessary-arbitrary-value": "off",
+    // Turn off the Next.js specific rule for <img> elements
+    "@next/next/no-img-element": "off",
+    
+    // Turn off the accessibility rule requiring alt attributes on <img>
+    "jsx-a11y/alt-text": "off"
+  },
+  "settings": {
+    "tailwindcss": {
+      "callees": ["cn", "cva"],
+      "config": "tailwind.config.cjs"
+    }
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "parser": "@typescript-eslint/parser"
+    }
+  ]
+}
